@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    // algorithm in javascript
+    //  input:
+    // a:numeric
+    // b:numeric
+    // Output
+    // subtration of two numbers
+    // subtration a and b
+    // start
+    // read a and b
+    // set c= a-b
+    // print c
+    // end stop
+
+    // input:
+    // world(hello or hi or by)
+    // output
+    // print greating on the baces of argument world
+    // start
+    // read world(hello,hi,by)
+    // if(world===hello)
+    // print (hello world)
+    // if (world===hi)
+    // print (hi world)
+    // if (world ===by)
+    // print(by world)
+    // stop
+    // input:
+    // a:numeric
+    // b:numeric
+    // Output
+    // subtration of two numbers
+    // subtration a and b
+    // start
+    // read a a=nd b
+    // set c= a-b
+    // print c
+    // end stop
+
+    // input:
+    // world(hello or hi or by)
+    // output
+    // print greating on the baces of argument world
+    // start
+    // read world(hello,hi,by)
+    // if(world===hello)
+    // print (hello world)
+    // if (world===hi)
+    // print (hi world)
+    // if (world ===by)
+    // print(by world)
+    // stop
+    // ==========================================================
+    // function greating(world){
+    // if(world==="hello"){
+    //     console.log("hello world")
+    // }
+    // else if(world==="hi"){
+    //     console.log("hi world")
+    // }else {
+    //     console.log( "by world")
+    // }
+    // return world
+
+    // }
+    // greating("hello")
+    // greating("by")
+    // greating("hi")
+
+    // function aa(wor){
+    //     (wor==="hello")?console.log("hello world"):(wor==="hi")?console.log("hi world"):console.log("by world")
+    // }
+    // aa("hello")
+    // aa("hi")
+    // aa()
+
+    // function sumOfEvenNumbers(nn) {
+    //   let sum = 0;
+    //   for (let i = 1; i <= nn; i++) {
+
+    //     if (i % 2 === 0) {
+    //       sum += i;
+    //     }
+    //   }
+    //   return sum;
+    // }
+    // const nn=10
+    // const result = sumOfEvenNumbers(nn);
+    // console.log(result);
+    // let arr=[9,5,7,2,24,6,8,55,11,4,23,25,67,89,90]
+    // let sort=0
+    // for (let i = 0; i < arr.length; i++) {
+    //     for(j=i+1;j<arr.length;j++){
+    //         if(arr[i]>arr[j]){
+    //             let sort=arr[i]
+    //             arr[i]=arr[j]
+    //             arr[j]=sort;
+    //         }
+    //     }
+    // }
+    // console.log(arr)
+
+    // console.log(arr)
+
+    // for (let i = 0; i < arr.length; i++) {
+    //   for (let j = i + 1; j < arr.length; j++) {
+
+    //     if (arr[i] > arr[j]) {
+    //       let temp = arr[i];
+    //       arr[i] = arr[j];
+    //       arr[j] = temp;
+    //     }
+    //   }
+    // }
+    // ==========================================================
+    // sum the all values
+    // function aa(...numbers) {
+    //   su = 0;
+    //   for (let num of numbers) {
+    //     su += num;
+    //   }
+    //   return su;
+    // }
+    // console.log(aa(1, 2, 3, 4, 5, 6, 7));
+    // =======================================================
+    // function any() {
+    //   return {
+    //     name: "simran",
+    //   };
+    // }
+    // console.warn(any());
+    // +++++++++++++++++++++++++++++++++++++++++++++++++
+    // let a = 0;
+    // function s() {
+    //   a = 10;
+    //   return;
+    //   var a = function () {};
+    // }
+    // s();
+    // console.log(a);
+
+    // function sum(...numbers) {
+    //   add = 0;
+    //   for (let num of numbers) {
+    //     add += num;
+    //   }
+    //   return add;
+    // }
+    // let result = sum(1, 3, 4, 5, 6, 7, 4);
+    // console.log(result);
+    //  sum the even numbers
+
+    // let a = "1,2,3,4,5";
+    // sum = 0;
+    // for (i = 0; i <= a.length; i++) {
+    //   if (i % 2 == 0) {
+    //     sum += i;
+    //   }
+    // }
+    // console.log(i);
+    // let string = "hello";
+    // let arr = string.length;
+    // for (i = arr - 1; i >= 0; i--) {
+    //   console.log(string[i]);
+    // }
+    // +++++++++++++++++++++++++++++++++++++++++++++++++++=
+    // enter  element in a position
+    // let data = [20, 30, 40, 50, 60, 70];
+    // function insertnewele() {
+    //   let position = document.getElementById("position").value;
+    //   let newel = document.getElementById("newel").value;
+    //   console.warn(data);
+
+    //   for (i = data.length - 1; i >= 0; i--) {
+    //     if (i >= position) {
+    //       data[i + 1] = data[i];
+    //       if (i == position) {
+    //         data[i] = newel;
+    //       }
+    //     }
+    //   }
+    //   console.log(data);
+    // }
+    // +++++++++++++++++++++++++++++++++++++++++++++
+    //  deleat element
+    // let data1 = [10, 3, 4, 5, 6, 7, 6];
+    // let position1 = 6;
+    // console.warn(data1);
+    // for (i = position1; i <= data1.length - 1; i++) {
+    //   data1[i] = data1[i + 1];
+    // }
+    // data1.length = data1.length - 1;
+
+    // console.warn(data1);
+    // ++++++++++++++++++++++++++++++++++++++++++++++++++++
+    //     deleat element in array
+    //  let arr=[1,2,3,4,5,6,7,8,9]
+    //  let pos=2
+    //  for(let i=pos;i<arr.length-1;i++){
+    //   arr[i]=arr[i+1]
+    //  }
+
+    //  console.log(arr)
+    // =======================================================
+    // sorting array
+    // let arr = [30, 40, 35, 12, 25];
+    // for (i = 0; i < arr.length; i++) {
+    //   for (j = 0; j < arr.length; j++) {
+    //     if (arr[j] > arr[j + 1]) {
+    //       let ab = arr[j];
+    //       arr[j] = arr[j + 1];
+    //       arr[j + 1] = ab;
+    //     }
+    //   }
+    // }
+    // console.log(arr);
+    // console.log(arr[arr.length - 3]);
+
+    // classs question ++++++++++++++++++++++++++++++++++++++++++
+    // arr = [1, 2, 3, 4, 5, 6];
+
+    // function sum() {
+    //   let total = 0;
+    //   for (i = 0; i < arr.length; i++) {
+    //     total += arr[i];
+    //   }
+    //   return total;
+    // }
+    // console.log(sum());
+
+    // arr = [10, 12, 9, 36, 13];
+    // let ele = 36;
+    // function array(arr, num) {
+    //   for (i = 0; i < arr.length; i++) {
+    //     if (arr[i] == num) {
+    //       return true;
+    //     }
+    //   }
+    //   return false;
+    // }
+    // console.log(array(arr, ele));
+    // class question +++++++++++++++++++
+    // let arr = [1, 2, 3, 4, 5, 4, 7, 4, 6, 4, 8, 4, 9, 4];
+    // let num = 0;
+    // function fan() {
+    //   for (i = 0; i <= arr.length; i++) {
+    //     if (arr[i] == arr) {
+    //       arr[i] = num;
+    //       num = arr[i];
+    //       num++;
+    //     }
+    //   }
+    //   return num;
+    // }
+    // console.log(fan(num));
+
+    // let array = [1, 2, 3, 4, 5, 4, 7, 4, 6, 4, 8, 4, 9, 4];
+    // let ele = 4;
+    // function duplicate(array, element) {
+    //   let count = 0;
+
+    //   for (let i = 0; i < array.length; i++) {
+    //     if (array[i] === element) {
+    //       count++;
+    //     }
+    //   }
+
+    //   return count;
+    // }
+    // let result = duplicate(array, ele);
+
+    // let arr = [1, 2, 4, 5, 6];
+    // let position = 2;
+    // let x = 3;
+    // for (i = arr.length - 1; i >= 0; i--) {
+    //   if (i >= position) {
+    //     arr[i + 1] = arr[i];
+    //     if (i == position) {
+    //       arr[i] = x;
+    //     }
+    //   }
+    // }
+    // console.log(arr);
+
+    // let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+    // for (let i = 0; i <= arr.length; i++) {
+    //   if (arr[i] % 2 == 0) {
+    //     console.log(arr[i]);
+    //   }
+    // }
+    // let arr = [5, 5, 5, 5, 5, 5];
+    // let sum = 0;
+    // function avarage() {
+    //   for (let i = 0; i < arr.length; i++) {
+    //     sum += arr[i];
+    //   }
+    //   return sum / arr.length;
+    // }
+
+    // let result = avarage();
+
+    // console.log(result);
+    // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // let idi = id;
+    // function insert() {
+    //   let elem = ele;
+    //   for (let i = arr.length - 1; i >= 0; i--) {
+    //     if (i >= id) {
+    //       arr[i + 1] = arr[i];
+    //       if (i == id) {
+    //         arr[i] = elem;
+    //       }
+    //     }
+    //   }
+    //   console.log(arr);
+    // }
+    // insert();
+    // in array print two object
+    //     let arr=[
+    //    {name:"simran",
+    //      age:19},
+
+    //      { name:"man",
+    //       age:20}
+    // ]
+
+    // for(let i=0;i<arr.length;i++){
+    //     console.log(`name:  ${arr[i].name}  Age= ${arr[i].age}`)
+    // " name:" +arr[1].name + " Age:" +arr[1].age)
+    // }
+    // abc=""
+    // for(let i=0;i<arr.length;i++){
+    //     abc+= arr[i]
+    //     arr[i]=arr[0]
+
+    // }
+    //  for(let x of arr ){
+    //    console.log(`name: ${x.name}  Age: ${x.age}`)
+    // }
+    // console.log()
+
+    // shadow copy and deep copy in js
+    // let a=1
+    // let b=12
+    // let c=18
+    // if(a>b && a>c){
+    // console.log(a)
+    // }  else if(b>a && b>c){
+    //     console.log(b)
+    // }else{
+    //     console.log(c)
+    // }
+    // ===========================
+    // if (a>b || a>c){
+    //     console.log(a)
+    // }else if(b>a || b>c){
+    //     console.log(b)
+    // }else{
+    //     console.log(c)
+    // }
+    // =============================
+    // let a="apple"
+    // let b="orange"
+    // let c;
+    // c=a
+    // a=b
+    // b=c
+    // console.log(a)
+    // console.log(b)
+    // ===========================================
+    // let a=3
+    // let b=6
+    // a=a+b
+    // b=a-b
+    // a=a-b
+
+    //     console.log(a)
+    //      console.log(b)
+    // ============================================
+    //  find 3rd largest num in array
+
+    // arr=[12,34,56,7,8]
+    // arr.reduce((acc ,val)=>{
+    //     return acc+val
+
+    // },0)
+
+    // high length
+    // second lop largest valuve in arr less then first
+    // third find largest value less than first largest two value
+
+    // let arr=[-12,-34,-56,-17,-8]
+    // let ba=arr[0]
+    // let sec=arr[0]
+    // let third=-Infinity
+    // function largest(){
+    // if (arr.length < 3){
+    //     return false
+    // }
+    // for(i=1;i<arr.length;i++){
+    //     if(arr[i]>ba){
+    //         ba=arr[i]
+    //     }
+    // }
+    //      for(j=1;j<arr.length;j++){
+    //          if(arr[j]>sec && arr[j] < ba){
+    //             sec=arr[j]
+
+    //          }
+    //      }
+    //          for (k=1;k<arr.length;k++){
+    //              if(arr[k] > third  && arr[k] < sec ){
+    //                  third=arr[k]
+    //              }
+    //          }
+
+    // return
+    // }
+    // largest()
+    // console.log(ba)
+    // console.log(sec)
+    // console.log(third)
+
+    // let arr = [30, 40, 35, 12, 25];
+    // for (i = 0; i < arr.length; i++) {
+    //   for (j = 0; j < arr.length; j++) {
+    //     if (arr[j] > arr[j + 1]) {
+    //       let ab = arr[j];
+    //       arr[j] = arr[j + 1];
+    //       arr[j + 1] = ab;
+    //     }
+    //   }
+    // }
+    // console.log(arr);
+    // arr=[2,3,4,5,16,7,8,9,11]
+    // let l=[0]
+    // let sl=[0]
+    // let tl=[0]
+    // function third(){
+    //     if(arr.length<3){
+    //         return false
+    //     }
+    //     for(let i=0;i<arr.length;i++){
+    //         if(arr[i]>l){
+    //             l=arr[i]
+    //         }
+    //     }
+    //     for(let j=0;j<arr.length;j++){
+    //         if(arr[j]>sl && arr[j]<l){
+    //             sl=arr[j]
+    //         }
+    //     }
+    //     for(let k=0;k<arr.length;k++){
+    //         if(arr[k]>tl && arr[k]<sl){
+    //             tl=arr[k]
+    //         }
+    //     }
+    // }
+    // third()
+    // console.log(l)
+    // console.log(sl)
+    // console.log(tl)
+
+    // arr=[1,2,3,4,5,6,7,8,9]
+    // let element
+    // function squre (){
+    //     for(let i=0;i<arr.length;i++){
+    //          console.log(element)
+    //         element= arr[i]**2
+
+    //     }
+    //      console.log(element)
+    // }
+    // squre()
+
+    // let data=[1,2,3,4,5,6,7,8,9]
+    // let find=6
+    // let start=0
+    // let end= data.length-1
+    // let position=undefined
+    //  while(start<=end){
+    //      let mid=Math.floor((start+end)/2)
+    //     //  console.log(data[mid])
+    //      if(data[mid]===find){
+    //          position=mid
+    //          break;
+    //      }else if(data[mid]<find){
+    //          start=mid+1
+    //      }else{
+    //          end=mid-1
+    //      }
+    //  }
+    //  console.log(position)
+
+    // let data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // let find = 6,
+    //   start = 0,
+    //   end = data.length - 1,
+    //   position = undefined,
+    //   mid;
+    // while (start <= end) {
+    //   mid = Math.floor((start + end) / 2);
+    //   if (data[mid] === find) {
+    //     position = mid;
+    //     break;
+    //   } else if (data[mid] < find) {
+    //     start = mid + 1;
+    //   } else {
+    //     end = mid - 1;
+    //   }
+    // }
+    // console.log(position);
+    // function palindrome(a) {
+    //   let s = a.toString();
+    //   let b = a.split("").reverse().join("");
+    //   console.log(b);
+    //   let c = Number(b);
+    //   if (c === a) {
+    //     return true;
+    //   } else {
+    //     return false;
+    //   }
+    // }
+    // let a = 12321;
+    // console.log(palindrome(a));
+
+    // write a java script function that take a number   in array return even number array
+
+    // calaulte the facturial of given number
+
+    // check wether number is prime or not
+
+    // write a js function that return fabonic sequence upto given number of term
+    // first leter capital in js
+
+    // promise++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    // const ticket= new Promise(function(resolve, reject){
+    //   const isborded = true
+    //    if(isborded){
+    //     resolve("yes you are")
+    //    }else{
+    //     reject("you are not")
+    //    }
+    // })
+    // ticket
+    // .then((data)=>{
+    //   console.log("whooo",data)
+    // })
+    // .catch((data)=>{
+    //   console.log("oh nooo",data)
+    // })
+    // new method of promise
+    // function getcheese() {
+    //   return new Promise((resolve, reject) => {
+    //     setTimeout(() => {
+    //       const cheese = "cheese";
+    //       resolve(cheese);
+    //     }, 2000);
+    //   });
+    // }
+    // function makedough() {
+    //   return new Promise((resolve, reject) => {
+    //     setTimeout(() => {
+    //       const dough = "dough";
+    //       resolve(dough);
+    //     }, 2000);
+    //   });
+    // }
+    // function makepizza() {
+    //   return new Promise((resolve, reject) => {
+    //     const pizza = "pizza";
+    //     resolve(pizza);
+    //   });
+    // }
+
+    // getcheese()
+    //   .then((cheese) => {
+    //     console.log("here is  the cheese", cheese);
+    //     return makedough(cheese);
+    //   })
+    //   .then((dough) => {
+    //     console.log("here is a dough", dough);
+    //   })
+    //   .then((pizza) => {
+    //     console.log("here is a pizza", pizza);
+    //   })
+    //   .catch((data) => {
+    //     console.log("error data", data);
+    //   })
+    //   .Finally(() => {
+    //     console.log("process ended");
+    //   });
+
+    //  method of async and awit
+    // async function ordermeel() {
+    //   const cheese = await getcheese();
+    //   console.log("here is  the cheese", cheese);
+
+    //   const dough = await makedough();
+    //   console.log("here is a dough", dough);
+
+    //   const pizza = await makepizza();
+    //   console.log("here is a pizza", pizza);
+    // }
+    // ordermeel();
+    // api+++++++++++++++++++++++++++++++++++
+    // apply(),call(),Bind() three methods
+
+    // class Person {
+    //   constructor(name, age) {
+    //     (this.name = name), (this.age = age);
+    //   }
+    //   print() {
+    //     console.log(this.name, this.age);
+    //   }
+    // }
+    // const emp = new Person("simran", 23);
+    // emp.print();
+
+    // class Person {
+    //   id = 12;
+    //   constructor(name, age) {
+    //     (this.name = name), (this.age = age);
+    //   }
+    //   print() {
+    //     console.log(this.name, this.age);
+    //     console.log(this.id);
+    //   }
+    // }
+    // const emp = new Person("simran", 23);
+    // emp.print();
+
+    // class Newemp extends Person {
+    //   constructor(name, age, city) {
+    //     super(name, age);
+    //     this.city = city;
+    //   }
+    //   print() {
+    //     console.log(this.city);
+    //   }
+    // }
+    // const emp1 = new Newemp("simran", 23, "hsp");
+    // emp1.print();
+    // async function logMovies() {
+    //   const response = await fetch(
+    //     "https://jsonplaceholder.typicode.com/comments"
+    //   );
+    //   const movies = await response.json();
+    //   console.log(movies);
+    // }
+
+    // logMovies();
+
+    // call methods
+    // const Person = {
+    //   Fname: "simranjit",
+    //   Lname: "singh",
+    //   Fullname: function () {
+    //     return this.Fname + " " + this.Lname;
+    //   },
+    // };
+    // const Person2 = {
+    //   Fname: "manjit",
+    //   Lname: "singh",
+    // };
+    // console.log(Person.Fullname.call(Person2));
+    //call method+++++++++++++++++++++++++++++++
+    // class Employee {
+    //   constructor(name, age) {
+    //     this.name = name;
+    //     this.age = age;
+    //   }
+    //   print(userid, salary) {
+    //     console.log(this.name, this.age, userid, salary);
+    //   }
+    // }
+    // const Employee2 = {
+    //   name: "manjit",
+    //   age: 19,
+    // };
+
+    // const emp1 = new Employee("simran", 23);
+    // const descrivecopy = emp1.print;
+    // descrivecopy.call(emp1, Employee2.name, Employee2.age);
+
+    // class Employee {
+    //   constructor(name, age) {
+    //     this.name = name;
+    //     this.age = age;
+    //   }
+    //   print(name, age) {
+    //     console.log(this.name, this.age, name, age);
+    //   }
+    // }
+    // const Employee2 = {
+    //   name: "manjit",
+    //   age: 19,
+    // };
+
+    // const emp1 = new Employee("simran", 23);
+    // const descrivecopy = emp1.print;
+    // descrivecopy.apply({name:"singh",age:13} ,[Employee2.name, Employee2.age]);
+    // class Employee {
+    //   constructor(name, age) {
+    //     this.name = name;
+    //     this.age = age;
+    //   }
+    //   print(name, age) {
+    //     console.log(this.name, this.age, name, age);
+    //   }
+    // }
+    // const Employee2 = {
+    //   name: "manjit",
+    //   age: 19,
+    // };
+
+    // const emp1 = new Employee("simran", 23);
+    // const descrive = emp1.print.bind(
+    //   { name: "singh", age: 20 },
+    //   Employee2.name,
+    //   Employee2.age
+    // );
+    // descrive();
+  </script>
+
+  <body>
+    <h1>Welcome</h1>
+    <input type="text" id="id" placeholder="enter position" />
+    <input type="text" id="ele" placeholder="enter new element" />
+    <button onclick="insert()">submit</button>
+  </body>
+</html>
